@@ -8,19 +8,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+            integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+<header class="header">
+    <div class="container con-header">
         <nav class="navigation">
-            <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
+            <div class="logo-div">
+                <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
+            </div>
             <ul class="navigation-list list">
-    
+
                 <li class="navigation-item">
-                    <a class="navigation-link link" href="./index.html">Студия</a>
+                    <a class="navigation-link link current" href="./index.html">Студия</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link link current" href="./portfolio.html">Портфолио</a>
+                    <a class="navigation-link link" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link link" href="">Контакты</a>
@@ -29,16 +35,16 @@
         </nav>
         <ul class="contakt-list">
             <li class="contakt-item list">
-                <a class="mail-link link" href="info@devstudio.com">info@devstudio.com</a>
+                <a class="mail-link link" href="">info@devstudio.com</a>
             </li>
             <li class="contakt-item list">
-                <a class="tel-link link" href="+380961111111">+38 096 111 11 11</a>
+                <a class="tel-link link" href="">+38 096 111 11 11</a>
             </li>
         </ul>
-    
-    </header>
+    </div>
+</header>
     <main class="main">
-     <ul class="btn-list list">
+     <ul class="btn-list list container">
             <li class="btn-item"><button class="butn" type="button">Все</button></li>
             <li class="btn-item"><button class="butn" type="button">Веб-сайти</button></li>
             <li class="btn-item"><button class="butn" type="button">Приложения</button></li>
@@ -46,7 +52,7 @@
             <li class="btn-item"><button class="butn" type="button">Маркетинг</button></li>
         </ul>
         <section class="menu">
-            <ul class="menu-list list">
+            <ul class="menu-list list container">
                 <li class="menu-item"><img src="./images/portfolio/img.jpg" alt="" width="370" height="295">
                     <h3 class="menu-description">Технокряк</h3>
                     <p class="menu-description-p" >Веб-сайт</p>
