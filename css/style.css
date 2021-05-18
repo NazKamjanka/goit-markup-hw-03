@@ -160,8 +160,14 @@ body {
   background: var(--butn-color);
   border-radius: 4px;
   margin-top: 130px;
-  text-align: center;
 }
+.cont-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .butn:hover,
 .butn:focus {
   background-color: var(--primery-text-color);
@@ -257,11 +263,25 @@ body {
   letter-spacing: 0.06em;
   color: var(--text-one-color);
 }
+.menu {
+  margin-top: 50px;
+}
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .menu-description-p {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--text-two-color);
+}
+.menu-item {
+  width: 300px;
+  margin-right: 30px;
+}
+.menu-item:nth-child(3n) {
+  margin-right: 0;
 }
 .footer {
   font-style: normal;
@@ -278,12 +298,9 @@ body {
 }
 .btn-list {
   display: flex;
-  justify-content: start;
+  margin-right: 50px;
 }
-.btn-item {
-  width: 128px;
-  height: 28px;
-}
+
 .footer-menu {
   background-color: rgba(47, 48, 58, 1);
 }
