@@ -59,6 +59,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
   display: block;
+  align-items: center;
+  justify-content: center;
   margin-right: 30px;
 }
 
@@ -335,6 +337,7 @@ body {
 }
 .footer {
   font-style: normal;
+  margin-top: 20px;
 }
 .footer-contact {
   font-weight: 500;
