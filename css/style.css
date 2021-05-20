@@ -58,7 +58,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
-  margin-right: 93px;
+  display: block;
+  margin-right: 30px;
 }
 
 .logo-header {
@@ -177,12 +178,7 @@ body {
   background-color: var(--adres-color);
   color: var(--primery-text-color);
 }
-.cont-btn {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 50px;
-}
+
 .btn-item {
   display: flex;
 }
@@ -246,10 +242,15 @@ body {
 }
 .team-photos {
   width: 270px;
-  height: 260px;
 }
 .team-photos:not(:last-child) {
   margin-right: 30px;
+}
+.team-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .team-list {
   display: flex;
@@ -312,7 +313,8 @@ body {
 .menu-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .menu-description-p {
   font-size: 16px;
@@ -321,10 +323,15 @@ body {
   color: var(--text-two-color);
 }
 .menu-item {
-  width: 300px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
-.menu-item:nth-child(3n) {
-  margin-right: 0;
+
+.menu-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .footer {
   font-style: normal;
@@ -341,7 +348,9 @@ body {
 }
 .btn-list {
   display: flex;
+  justify-content: center;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 .btn-item:not(:last-child) {
   margin-right: 10px;
