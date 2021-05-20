@@ -197,7 +197,7 @@ body {
 .description-list {
   display: flex;
 }
-.description-list:not(:last-child) {
+.description-item:not(:last-child) {
   margin-right: 30px;
 }
 .description-foto {
